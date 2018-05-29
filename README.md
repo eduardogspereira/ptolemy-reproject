@@ -2,7 +2,9 @@
 
 Reproject between coordinates systems. Supports EPSG codes.
 
-This project is based on [proj4](https://www.npmjs.com/package/proj4) and [PostGIS Spatial Reference table](https://github.com/postgis/postgis/blob/svn-trunk/spatial_ref_sys.sql).
+This project is based on [proj4js](https://www.npmjs.com/package/proj4) and [PostGIS Spatial Reference table](https://github.com/postgis/postgis/blob/svn-trunk/spatial_ref_sys.sql).
+
+It can be used for who needs to deal with more projections than the common web projections (EPSG:4326, EPSG:3857).
 
 ## Setup
 
