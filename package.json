@@ -1,0 +1,34 @@
+{
+  "name": "ptolemy-reproject",
+  "version": "0.0.1",
+  "description": "Reproject between coordinates systems. Supports EPSG codes.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest unit --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardogspereira/ptolemy-reproject.git"
+  },
+  "keywords": ["GIS", "coordinates", "EPSG", "reproject", "UTM", "WGS84"],
+  "author": "Eduardo G. S. Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardogspereira/ptolemy-reproject/issues"
+  },
+  "homepage": "https://github.com/eduardogspereira/ptolemy-reproject#readme",
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.12.2",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "^22.4.0",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.10.2"
+  },
+  "dependencies": {
+    "proj4": "^2.4.4"
+  }
+}
