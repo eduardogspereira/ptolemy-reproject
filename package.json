@@ -2,7 +2,7 @@
   "name": "ptolemy-reproject",
   "version": "0.0.1",
   "description": "Reproject between coordinates systems. Supports EPSG codes.",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "jest unit --coverage"
   },
